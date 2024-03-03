@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_frws/src/build/my_params_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/my_params_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/my_params_interfaces
+Invoked command in '/root/ros2_frws/src/build/my_params_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/my_params_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/my_params_interfaces

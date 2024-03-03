@@ -1,0 +1,39 @@
+[1.220s] Invoking command in '/root/ros2_frws/src/course_works': PYTHONPATH=/root/ros2_frws/src/build/course_works/prefix_override:/root/ros2_frws/src/install/course_works/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/course_works build --build-base /root/ros2_frws/src/build/course_works/build install --record /root/ros2_frws/src/build/course_works/install.log --single-version-externally-managed
+[1.444s] running egg_info
+[1.458s] writing ../build/course_works/course_works.egg-info/PKG-INFO
+[1.459s] writing dependency_links to ../build/course_works/course_works.egg-info/dependency_links.txt
+[1.460s] writing entry points to ../build/course_works/course_works.egg-info/entry_points.txt
+[1.461s] writing requirements to ../build/course_works/course_works.egg-info/requires.txt
+[1.461s] writing top-level names to ../build/course_works/course_works.egg-info/top_level.txt
+[1.486s] reading manifest file '../build/course_works/course_works.egg-info/SOURCES.txt'
+[1.486s] adding license file 'LICENSE'
+[1.486s] writing manifest file '../build/course_works/course_works.egg-info/SOURCES.txt'
+[1.487s] running build
+[1.487s] running build_py
+[1.487s] copying course_works/process.py -> /root/ros2_frws/src/build/course_works/build/lib/course_works
+[1.488s] running install
+[1.488s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.488s] !!
+[1.488s] 
+[1.488s]         ********************************************************************************
+[1.488s]         Please avoid running ``setup.py`` directly.
+[1.488s]         Instead, use pypa/build, pypa/installer or other
+[1.488s]         standards-based tools.
+[1.488s] 
+[1.489s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.489s]         ********************************************************************************
+[1.489s] 
+[1.489s] !!
+[1.489s]   self.initialize_options()
+[1.495s] running install_lib
+[1.508s] copying /root/ros2_frws/src/build/course_works/build/lib/course_works/process.py -> /root/ros2_frws/src/install/course_works/lib/python3.10/site-packages/course_works
+[1.509s] byte-compiling /root/ros2_frws/src/install/course_works/lib/python3.10/site-packages/course_works/process.py to process.cpython-310.pyc
+[1.510s] running install_data
+[1.523s] running install_egg_info
+[1.540s] removing '/root/ros2_frws/src/install/course_works/lib/python3.10/site-packages/course_works-0.0.0-py3.10.egg-info' (and everything under it)
+[1.540s] Copying ../build/course_works/course_works.egg-info to /root/ros2_frws/src/install/course_works/lib/python3.10/site-packages/course_works-0.0.0-py3.10.egg-info
+[1.541s] running install_scripts
+[1.661s] Installing processed_signal script to /root/ros2_frws/src/install/course_works/lib/course_works
+[1.664s] Installing signal_generator script to /root/ros2_frws/src/install/course_works/lib/course_works
+[1.664s] writing list of installed files to '/root/ros2_frws/src/build/course_works/install.log'
+[1.747s] Invoked command in '/root/ros2_frws/src/course_works' returned '0': PYTHONPATH=/root/ros2_frws/src/build/course_works/prefix_override:/root/ros2_frws/src/install/course_works/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/course_works build --build-base /root/ros2_frws/src/build/course_works/build install --record /root/ros2_frws/src/build/course_works/install.log --single-version-externally-managed

@@ -1,0 +1,339 @@
+[0.828s] Invoking command in '/root/ros2_frws/src/build/moveit_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/moveit_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/moveit_msgs
+[2.377s] -- The C compiler identification is GNU 11.4.0
+[2.380s] -- The CXX compiler identification is GNU 11.4.0
+[2.384s] -- Detecting C compiler ABI info
+[2.385s] -- Detecting C compiler ABI info - done
+[2.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.387s] -- Detecting C compile features
+[2.387s] -- Detecting C compile features - done
+[2.387s] -- Detecting CXX compiler ABI info
+[2.387s] -- Detecting CXX compiler ABI info - done
+[2.387s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.388s] -- Detecting CXX compile features
+[2.389s] -- Detecting CXX compile features - done
+[2.390s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.390s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.390s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.390s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.390s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[2.390s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[2.390s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.391s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.484s] -- Found shape_msgs: 4.2.3 (/opt/ros/humble/share/shape_msgs/cmake)
+[2.560s] -- Found object_recognition_msgs: 2.0.0 (/opt/ros/humble/share/object_recognition_msgs/cmake)
+[2.770s] -- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+[2.840s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[4.123s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.905s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.909s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.935s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.935s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.935s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.935s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.957s] -- Found PythonExtra: .so  
+[5.055s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.088s] -- Configuring done
+[5.298s] -- Generating done
+[5.302s] -- Build files have been written to: /root/ros2_frws/src/build/moveit_msgs
+[5.321s] Invoked command in '/root/ros2_frws/src/build/moveit_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/moveit_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/moveit_msgs
+[5.323s] Invoking command in '/root/ros2_frws/src/build/moveit_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/src/build/moveit_msgs -- -j16 -l16
+[5.420s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.433s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.435s] [  0%] Built target ament_cmake_python_copy_moveit_msgs
+[5.659s] running egg_info
+[5.661s] creating moveit_msgs.egg-info
+[5.680s] writing moveit_msgs.egg-info/PKG-INFO
+[5.681s] writing dependency_links to moveit_msgs.egg-info/dependency_links.txt
+[5.681s] writing top-level names to moveit_msgs.egg-info/top_level.txt
+[5.681s] writing manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+[5.735s] reading manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+[5.735s] writing manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+[5.762s] [  0%] Built target ament_cmake_python_build_moveit_msgs_egg
+[17.705s] [  0%] Built target moveit_msgs__cpp
+[17.716s] [  0%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.716s] [  0%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.716s] [  0%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.493s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/allowed_collision_entry__functions.c.o[0m
+[18.494s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/allowed_collision_matrix__functions.c.o[0m
+[18.494s] [  0%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/attached_collision_object__functions.c.o[0m
+[18.494s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/cartesian_point__functions.c.o[0m
+[18.494s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/bounding_volume__functions.c.o[0m
+[18.494s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/cartesian_trajectory__functions.c.o[0m
+[18.494s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/cartesian_trajectory_point__functions.c.o[0m
+[18.495s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/constraint_eval_result__functions.c.o[0m
+[18.495s] [  1%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/collision_object__functions.c.o[0m
+[18.503s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/constraints__functions.c.o[0m
+[18.506s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/cost_source__functions.c.o[0m
+[18.512s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/contact_information__functions.c.o[0m
+[18.520s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/display_trajectory__functions.c.o[0m
+[18.612s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/generic_trajectory__functions.c.o[0m
+[18.613s] [  3%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/joint_constraint__functions.c.o[0m
+[18.613s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/display_robot_state__functions.c.o[0m
+[18.613s] [  2%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/grasp__functions.c.o[0m
+[18.613s] [  3%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/link_scale__functions.c.o[0m
+[18.614s] [  3%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/joint_limits__functions.c.o[0m
+[18.614s] [  3%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/link_padding__functions.c.o[0m
+[18.615s] [  3%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/gripper_translation__functions.c.o[0m
+[18.615s] [  4%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/motion_plan_response__functions.c.o[0m
+[18.622s] [  4%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/motion_plan_request__functions.c.o[0m
+[18.622s] [  4%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/motion_plan_detailed_response__functions.c.o[0m
+[18.622s] [  4%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/motion_sequence_item__functions.c.o[0m
+[18.676s] [  4%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/motion_sequence_request__functions.c.o[0m
+[18.688s] [  4%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/motion_sequence_response__functions.c.o[0m
+[18.694s] [  4%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/move_it_error_codes__functions.c.o[0m
+[18.699s] [  5%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/trajectory_constraints__functions.c.o[0m
+[18.705s] [  5%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/orientation_constraint__functions.c.o[0m
+[18.706s] [  5%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/oriented_bounding_box__functions.c.o[0m
+[18.706s] [  5%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/planner_interface_description__functions.c.o[0m
+[18.709s] [  5%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/planner_params__functions.c.o[0m
+[18.709s] [  5%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/object_color__functions.c.o[0m
+[18.711s] [  5%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/place_location__functions.c.o[0m
+[18.720s] [  6%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/planning_scene__functions.c.o[0m
+[18.724s] [  6%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/planning_scene_components__functions.c.o[0m
+[18.752s] [  6%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/planning_scene_world__functions.c.o[0m
+[18.765s] [  6%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/planning_options__functions.c.o[0m
+[18.791s] [  6%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/position_constraint__functions.c.o[0m
+[18.791s] [  6%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/robot_state__functions.c.o[0m
+[18.791s] [  7%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/robot_trajectory__functions.c.o[0m
+[18.792s] [  7%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/workspace_parameters__functions.c.o[0m
+[18.792s] [  7%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/visibility_constraint__functions.c.o[0m
+[18.809s] [  7%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/kinematic_solver_info__functions.c.o[0m
+[18.809s] [  7%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/get_motion_plan__functions.c.o[0m
+[18.813s] [  7%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/detail/position_ik_request__functions.c.o[0m
+[18.827s] [  7%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/get_state_validity__functions.c.o[0m
+[18.828s] [  8%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/get_cartesian_path__functions.c.o[0m
+[18.834s] [  8%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/get_planning_scene__functions.c.o[0m
+[18.845s] [  8%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/grasp_planning__functions.c.o[0m
+[18.866s] [  8%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/apply_planning_scene__functions.c.o[0m
+[18.873s] [  8%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/query_planner_interfaces__functions.c.o[0m
+[18.876s] [  8%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/get_motion_sequence__functions.c.o[0m
+[18.884s] [  9%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/get_planner_params__functions.c.o[0m
+[18.884s] [  9%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/get_position_fk__functions.c.o[0m
+[18.884s] [  9%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/get_position_ik__functions.c.o[0m
+[18.905s] [  9%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/set_planner_params__functions.c.o[0m
+[18.913s] [  9%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/update_pointcloud_octomap__functions.c.o[0m
+[18.928s] [  9%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/save_map__functions.c.o[0m
+[18.951s] [ 10%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/load_map__functions.c.o[0m
+[18.957s] [ 10%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/list_robot_states_in_warehouse__functions.c.o[0m
+[18.960s] [ 10%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/save_robot_state_to_warehouse__functions.c.o[0m
+[18.960s] [ 10%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/check_if_robot_state_exists_in_warehouse__functions.c.o[0m
+[18.966s] [ 10%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/get_robot_state_from_warehouse__functions.c.o[0m
+[18.979s] [ 10%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/rename_robot_state_in_warehouse__functions.c.o[0m
+[18.982s] [ 10%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/delete_robot_state_from_warehouse__functions.c.o[0m
+[18.991s] [ 11%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/change_control_dimensions__functions.c.o[0m
+[18.993s] [ 11%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/detail/change_drift_dimensions__functions.c.o[0m
+[19.019s] [ 11%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/action/detail/execute_trajectory__functions.c.o[0m
+[19.036s] [ 11%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/action/detail/move_group__functions.c.o[0m
+[19.037s] [ 11%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/action/detail/move_group_sequence__functions.c.o[0m
+[19.044s] [ 12%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/action/detail/place__functions.c.o[0m
+[19.051s] [ 12%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/action/detail/pickup__functions.c.o[0m
+[19.088s] [ 12%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/action/detail/local_planner__functions.c.o[0m
+[19.101s] [ 12%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/action/detail/global_planner__functions.c.o[0m
+[19.110s] [ 12%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/action/detail/hybrid_planner__functions.c.o[0m
+[19.269s] [ 12%] [32m[1mLinking C shared library libmoveit_msgs__rosidl_generator_c.so[0m
+[19.342s] [ 12%] Built target moveit_msgs__rosidl_generator_c
+[19.355s] [ 14%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.356s] [ 14%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.356s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[19.526s] gmake[2]: *** Deleting file 'rosidl_typesupport_cpp/moveit_msgs/msg/allowed_collision_entry__type_support.cpp'
+[19.527s] gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/detail/dds_fastrtps/allowed_collision_entry__type_support.cpp'
+[19.527s] gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/moveit_msgs/msg/detail/allowed_collision_entry__rosidl_typesupport_introspection_cpp.hpp'
+[19.527s] Traceback (most recent call last):
+[19.527s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>
+[19.527s] Traceback (most recent call last):
+[19.527s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 31, in <module>
+[19.527s] Traceback (most recent call last):
+[19.527s] Traceback (most recent call last):
+[19.528s]   File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>
+[19.528s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>
+[19.528s] Traceback (most recent call last):
+[19.528s]   File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>
+[19.528s]     sys.exit(main())
+[19.528s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main
+[19.528s]     sys.exit(main())
+[19.528s]     sys.exit(main())
+[19.528s]     sys.exit(main())
+[19.529s]   File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main
+[19.529s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 27, in main
+[19.529s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main
+[19.529s]     generate_typesupport_fastrtps_c(args.generator_arguments_file)
+[19.529s]     generate_c(args.generator_arguments_file, args.typesupports)
+[19.530s]     generate_c(args.generator_arguments_file)
+[19.530s]     generate_cpp(args.generator_arguments_file)
+[19.530s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c
+[19.530s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py", line 28, in generate_c
+[19.530s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py", line 31, in generate_c
+[19.531s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp
+[19.531s]     sys.exit(main())
+[19.531s]     return generate_files(generator_arguments_file, mapping)
+[19.531s]     return generate_files(
+[19.531s]     return generate_files(generator_arguments_file, mapping)
+[19.531s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[19.531s]   File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main
+[19.531s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[19.531s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[19.531s]     return generate_files(generator_arguments_file, mapping)
+[19.532s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[19.532s]     generate_cpp(args.generator_arguments_file, args.typesupports)
+[19.532s]     idl_file = parse_idl_file(locator)
+[19.532s]     idl_file = parse_idl_file(locator)
+[19.532s]     idl_file = parse_idl_file(locator)
+[19.532s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp
+[19.532s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[19.532s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[19.533s]     idl_file = parse_idl_file(locator)
+[19.533s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[19.533s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[19.533s]     return generate_files(
+[19.533s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[19.533s]     idl_file = parse_idl_file(locator)
+[19.533s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[19.533s] Traceback (most recent call last):
+[19.533s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>
+[19.533s]     sys.exit(main())
+[19.533s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main
+[19.533s]     content = parse_idl_string(string, png_file=png_file)
+[19.533s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[19.533s]     content = parse_idl_string(string, png_file=png_file)
+[19.534s]     content = parse_idl_string(string, png_file=png_file)
+[19.534s]     content = parse_idl_string(string, png_file=png_file)
+[19.534s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[19.534s]     content = parse_idl_string(string, png_file=png_file)
+[19.534s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[19.534s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[19.534s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[19.534s]     generate_cpp(args.generator_arguments_file)
+[19.534s]     tree = get_ast_from_idl_string(idl_string)
+[19.534s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[19.534s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp
+[19.534s]     tree = get_ast_from_idl_string(idl_string)
+[19.534s]     tree = get_ast_from_idl_string(idl_string)
+[19.535s]     tree = get_ast_from_idl_string(idl_string)
+[19.535s]     return generate_files(generator_arguments_file, mapping)
+[19.535s]     return _parser.parse(idl_string)
+[19.535s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+[19.535s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+[19.535s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[19.535s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[19.535s]     tree = get_ast_from_idl_string(idl_string)
+[19.535s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[19.535s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+[19.536s]     _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+[19.536s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 383, in __init__
+[19.536s]     expand_template(
+[19.536s]     return _parser.parse(idl_string)
+[19.536s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 138, in expand_template
+[19.536s]     _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+[19.536s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[19.536s]     _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+[19.536s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 383, in __init__
+[19.537s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 415, in __init__
+[19.537s]     template_path = get_template_path(template_name)
+[19.537s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 108, in get_template_path
+[19.537s]     if template_path.exists():
+[19.537s]   File "/usr/lib/python3.10/pathlib.py", line 1290, in exists
+[19.538s]     self.terminals, self.rules, self.ignore_tokens = self.grammar.compile(self.options.start, terminals_to_keep)
+[19.538s]     self.terminals, self.rules, self.ignore_tokens = self.grammar.compile(self.options.start, terminals_to_keep)
+[19.538s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 734, in compile
+[19.538s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 767, in compile
+[19.538s]     self.stat()
+[19.538s]   File "/usr/lib/python3.10/pathlib.py", line 1097, in stat
+[19.538s]     self.parser = self._build_parser()
+[19.538s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 458, in _build_parser
+[19.538s]     return self.parser.parse(text, start=start, on_error=on_error)
+[19.538s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[19.539s]     return self._accessor.stat(self, follow_symlinks=follow_symlinks)
+[19.539s] KeyboardInterrupt
+[19.539s]     return parser_class(self.lexer_conf, parser_conf, options=self.options)
+[19.539s]     return self.parser.parse(text, start=start, on_error=on_error)
+[19.539s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 242, in __call__
+[19.539s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[19.539s]     tree = transformer.transform(rule_tree)
+[19.539s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 252, in transform
+[19.539s]     rule = Rule(NonTerminal(name), expansion, i, alias, exp_options)
+[19.539s]     return self.parser.parse(stream, chosen_start, **kw)
+[19.539s]     return self.parser.parse(stream, chosen_start, **kw)
+[19.539s]   File "/usr/lib/python3/dist-packages/lark/grammar.py", line 102, in __init__
+[19.539s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[19.539s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[19.539s]     return ParsingFrontend(lexer_conf, parser_conf, options)
+[19.540s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 57, in __init__
+[19.540s]     self.parser = create_parser(lexer_conf, parser_conf, options)
+[19.540s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 209, in create_earley_parser
+[19.540s]     tree = t.transform(tree)
+[19.541s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 272, in transform
+[19.541s]     self._hash = hash((self.origin, tuple(self.expansion)))
+[19.541s]     return f(lexer_conf, parser_conf, options, resolve_ambiguity=resolve_ambiguity, debug=debug, tree_class=tree_class, **extra)
+[19.541s] KeyboardInterrupt
+[19.541s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 186, in create_earley_parser__dynamic
+[19.542s]     subtree.children = list(self._transform_children(subtree.children))
+[19.542s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 138, in _transform_children
+[19.542s]     earley_matcher = EarleyRegexpMatcher(lexer_conf)
+[19.542s]     res = self._transform_tree(c)
+[19.542s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 268, in _transform_tree
+[19.542s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 167, in __init__
+[19.542s]     return self._call_userfunc(tree)
+[19.542s]     width = get_regexp_width(regexp)[0]
+[19.542s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 114, in _call_userfunc
+[19.542s]   File "/usr/lib/python3/dist-packages/lark/utils.py", line 131, in get_regexp_width
+[19.542s]     return f.visit_wrapper(f, tree.data, children, tree.meta)
+[19.542s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 491, in _vargs_inline
+[19.542s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[19.542s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[19.542s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse
+[19.542s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 146, in _parse
+[19.543s]     return f(*children)
+[19.543s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 471, in __call__
+[19.543s]     return self.base_func(*args, **kwargs)
+[19.543s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 478, in pattern
+[19.543s]     if term_name is None:
+[19.543s]     return [int(x) for x in sre_parse.parse(regexp_final).getwidth()]
+[19.543s] KeyboardInterrupt
+[19.543s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[19.543s]     to_scan = scan(i, to_scan)
+[19.543s]     self.predict_and_complete(i, to_scan, columns, transitives)
+[19.543s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 76, in scan
+[19.543s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 154, in predict_and_complete
+[19.543s]     elif new_item not in column:
+[19.543s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_common.py", line 28, in __eq__
+[19.543s]     m = match(x, stream, i)
+[19.543s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 178, in match
+[19.544s]     def match(self, term, text, index=0):
+[19.544s] KeyboardInterrupt
+[19.544s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[19.544s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[19.544s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[19.544s]   File "/usr/lib/python3.10/sre_parse.py", line 512, in _parse
+[19.544s]     def __eq__(self, other):
+[19.544s] KeyboardInterrupt
+[19.544s]     sourceget()
+[19.544s]   File "/usr/lib/python3.10/sre_parse.py", line 257, in get
+[19.544s]     self.__next()
+[19.544s]   File "/usr/lib/python3.10/sre_parse.py", line 241, in __next
+[19.544s]     if char == "\\":
+[19.544s] KeyboardInterrupt
+[19.558s] gmake[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_c.dir/build.make:270: rosidl_typesupport_c/moveit_msgs/msg/allowed_collision_entry__type_support.cpp] Interrupt
+[19.559s] gmake[1]: *** [CMakeFiles/Makefile2:290: CMakeFiles/moveit_msgs__rosidl_typesupport_c.dir/all] Interrupt
+[19.559s] gmake[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:272: rosidl_typesupport_fastrtps_c/moveit_msgs/msg/detail/allowed_collision_entry__rosidl_typesupport_fastrtps_c.h] Interrupt
+[19.559s] gmake[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_c.dir/build.make:272: rosidl_typesupport_introspection_c/moveit_msgs/msg/detail/allowed_collision_entry__rosidl_typesupport_introspection_c.h] Interrupt
+[19.559s] gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[19.559s] gmake[1]: *** [CMakeFiles/Makefile2:264: CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[19.567s] Exception ignored in: <function Interpreter.__del__ at 0x7f404e927520>
+[19.568s] Traceback (most recent call last):
+[19.568s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[19.568s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[19.568s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[19.568s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[19.568s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[19.576s] gmake[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:272: rosidl_typesupport_introspection_cpp/moveit_msgs/msg/detail/allowed_collision_entry__rosidl_typesupport_introspection_cpp.hpp] Interrupt
+[19.576s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[19.580s] gmake[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:272: rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/detail/dds_fastrtps/allowed_collision_entry__type_support.cpp] Interrupt
+[19.580s] gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[19.581s] gmake[2]: *** [CMakeFiles/moveit_msgs__rosidl_typesupport_cpp.dir/build.make:270: rosidl_typesupport_cpp/moveit_msgs/msg/allowed_collision_entry__type_support.cpp] Interrupt
+[19.582s] gmake[1]: *** [CMakeFiles/Makefile2:394: CMakeFiles/moveit_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+[19.582s] gmake: *** [Makefile:146: all] Interrupt
+[19.584s] Invoked command in '/root/ros2_frws/src/build/moveit_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/src/build/moveit_msgs -- -j16 -l16

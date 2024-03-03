@@ -1,0 +1,280 @@
+[0.613s] Invoking command in '/root/ros2_frws/src/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/xarm_ros2/xarm_description -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/xarm_description
+[1.818s] -- The C compiler identification is GNU 11.4.0
+[1.820s] -- The CXX compiler identification is GNU 11.4.0
+[1.821s] -- Detecting C compiler ABI info
+[1.821s] -- Detecting C compiler ABI info - done
+[1.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.821s] -- Detecting C compile features
+[1.822s] -- Detecting C compile features - done
+[1.822s] -- Detecting CXX compiler ABI info
+[1.822s] -- Detecting CXX compiler ABI info - done
+[1.822s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.822s] -- Detecting CXX compile features
+[1.822s] -- Detecting CXX compile features - done
+[1.822s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.822s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.938s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.096s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.116s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.120s] -- Added test 'lint_cmake' to check CMake code style
+[2.123s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.142s] -- Added test 'xmllint' to check XML markup files
+[2.146s] -- Configuring done
+[2.157s] -- Generating done
+[2.159s] -- Build files have been written to: /root/ros2_frws/src/build/xarm_description
+[2.166s] Invoked command in '/root/ros2_frws/src/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/xarm_ros2/xarm_description -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/xarm_description
+[2.168s] Invoking command in '/root/ros2_frws/src/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/src/build/xarm_description -- -j16 -l16
+[2.215s] Invoked command in '/root/ros2_frws/src/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/src/build/xarm_description -- -j16 -l16
+[2.251s] Invoking command in '/root/ros2_frws/src/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/src/build/xarm_description
+[2.261s] -- Install configuration: ""
+[2.261s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//rviz
+[2.267s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//rviz/display.rviz
+[2.267s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf
+[2.267s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/lite6
+[2.267s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/lite6/lite6.ros2_control.xacro
+[2.267s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/lite6/lite6.transmission.xacro
+[2.267s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/lite6/lite6_robot_macro.xacro
+[2.268s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/lite6/lite6.gazebo.xacro
+[2.268s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/lite6/lite6.urdf.xacro
+[2.268s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/_private_macro.xacro
+[2.268s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7_mirror
+[2.268s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.ros2_control.xacro
+[2.268s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.urdf.xacro
+[2.268s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.gazebo.xacro
+[2.269s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror.transmission.xacro
+[2.269s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7_mirror/xarm7_mirror_robot_macro.xacro
+[2.270s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/vacuum_gripper
+[2.270s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/xarm_vacuum_gripper.urdf.xacro
+[2.270s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper.urdf.xacro
+[2.270s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper_macro.xacro
+[2.277s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/lite_vacuum_gripper.urdf.xacro
+[2.277s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/other
+[2.277s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/other/other_geometry.urdf.xacro
+[2.277s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm_device.urdf.xacro
+[2.277s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/camera
+[2.277s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/camera/camera.gazebo.xacro
+[2.277s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/camera/realsense_d435i.urdf.xacro
+[2.278s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/camera/realsense.gazebo.xacro
+[2.278s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper
+[2.278s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.gazebo.xacro
+[2.279s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper_macro.xacro
+[2.279s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.urdf.xacro
+[2.279s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/lite_gripper.urdf.xacro
+[2.279s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.urdf.xacro
+[2.279s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.gazebo.xacro
+[2.279s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/gripper_macro.xacro
+[2.279s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.ros2_control.xacro
+[2.279s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.transmission.xacro
+[2.280s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/gripper.urdf.xacro
+[2.280s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper_macro.xacro
+[2.281s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.ros2_control.xacro
+[2.281s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/gripper/bio_gripper.transmission.xacro
+[2.282s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/common
+[2.282s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/common/common.material.xacro
+[2.282s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/common/common.gazebo.xacro
+[2.282s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/common/common.link.xacro
+[2.283s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm_device_macro.xacro
+[2.284s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7
+[2.285s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7_robot_macro.xacro
+[2.285s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.gazebo.xacro
+[2.285s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.transmission.xacro
+[2.285s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.urdf.xacro
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm7/xarm7.ros2_control.xacro
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm5
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.ros2_control.xacro
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5_robot_macro.xacro
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.gazebo.xacro
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.transmission.xacro
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm5/xarm5.urdf.xacro
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/dual_xarm_device.urdf.xacro
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/uf850
+[2.286s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/uf850/uf850_robot_macro.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/uf850/uf850.ros2_control.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/uf850/uf850.transmission.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/uf850/uf850.gazebo.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/uf850/uf850.urdf.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm6
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.ros2_control.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.urdf.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.transmission.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6.gazebo.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//urdf/xarm6/xarm6_robot_macro.xacro
+[2.287s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config
+[2.288s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial
+[2.290s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type9_HT_BR2.yaml
+[2.291s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type13_HT_BR2.yaml
+[2.291s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type12_HT_LDBR2.yaml
+[2.291s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type8_HT2_BR2.yaml
+[2.291s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR2.yaml
+[2.291s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_BR2.yaml
+[2.291s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_BR2.yaml
+[2.292s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT2_LD.yaml
+[2.292s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_LD.yaml
+[2.292s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/gen_link_inertial_params.py
+[2.292s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type3_YT_SP.yaml
+[2.292s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type11_HT_LD.yaml
+[2.292s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_LD.yaml
+[2.297s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm5_type5_HT_BR.yaml
+[2.298s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm7_type7_HT_BR.yaml
+[2.298s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR.yaml
+[2.298s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_LD.yaml
+[2.298s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/kinematics
+[2.298s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/kinematics/gen_kinematics_params.py
+[2.298s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/kinematics/default
+[2.298s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/kinematics/default/uf850_default_kinematics.yaml
+[2.299s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/kinematics/default/xarm7_default_kinematics.yaml
+[2.299s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/kinematics/default/xarm6_default_kinematics.yaml
+[2.299s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/kinematics/default/xarm7_mirror_default_kinematics.yaml
+[2.299s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/kinematics/default/xarm5_default_kinematics.yaml
+[2.299s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//config/kinematics/default/lite6_default_kinematics.yaml
+[2.299s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes
+[2.299s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6
+[2.300s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/visual
+[2.301s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/visual/link4.stl
+[2.303s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/visual/link6.stl
+[2.304s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/visual/link2.stl
+[2.305s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/visual/link5.stl
+[2.307s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/visual/link_base.stl
+[2.307s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/visual/link1.stl
+[2.309s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/visual/link3.stl
+[2.309s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/collision
+[2.310s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/collision/link4.stl
+[2.311s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/collision/link6.stl
+[2.311s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/collision/link2.stl
+[2.311s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/collision/link5.stl
+[2.312s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/collision/link_base.stl
+[2.313s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/collision/link1.stl
+[2.313s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/lite6/collision/link3.stl
+[2.313s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror
+[2.314s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual
+[2.314s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link4.stl
+[2.315s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link6.stl
+[2.316s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link2.stl
+[2.317s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link5.stl
+[2.318s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link_base.stl
+[2.320s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link1.stl
+[2.320s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link3.stl
+[2.321s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/visual/link7.stl
+[2.322s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision
+[2.323s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link4.stl
+[2.324s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link6.stl
+[2.324s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link2.stl
+[2.325s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link5.stl
+[2.325s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link_base.stl
+[2.326s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link1.stl
+[2.326s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link3.stl
+[2.327s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7_mirror/collision/link7.stl
+[2.327s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper
+[2.328s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite
+[2.329s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual
+[2.329s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual/vacuum_gripper_lite.stl
+[2.330s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision
+[2.330s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision/vacuum_gripper_lite.stl
+[2.331s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm
+[2.332s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual
+[2.332s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual/vacuum_gripper.stl
+[2.336s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision
+[2.336s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision/vacuum_gripper.stl
+[2.337s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/camera
+[2.337s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/camera/realsense
+[2.338s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual
+[2.338s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual/d435_with_cam_stand.stl
+[2.344s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision
+[2.344s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision/d435_with_cam_stand.stl
+[2.344s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper
+[2.345s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/lite
+[2.345s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual
+[2.346s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/gripper_lite.stl
+[2.347s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision
+[2.347s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision/gripper_lite.stl
+[2.348s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/bio
+[2.348s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/bio/right_finger.stl
+[2.349s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/bio/left_finger.stl
+[2.349s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/bio/link_base.stl
+[2.350s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/xarm
+[2.351s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_inner_knuckle.stl
+[2.352s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_finger.stl
+[2.353s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_outer_knuckle.stl
+[2.353s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_finger.stl
+[2.354s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_outer_knuckle.stl
+[2.358s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/xarm/base_link.stl
+[2.362s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_inner_knuckle.stl
+[2.364s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7
+[2.366s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7/visual
+[2.367s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link4.stl
+[2.368s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link6.stl
+[2.370s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link2.stl
+[2.371s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link5.stl
+[2.372s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link_base.stl
+[2.376s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link1.stl
+[2.376s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link3.stl
+[2.378s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm7/visual/link7.stl
+[2.379s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm5
+[2.379s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm5/visual
+[2.380s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link4.stl
+[2.381s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link2.stl
+[2.390s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link5.stl
+[2.390s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link_base.stl
+[2.391s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link1.stl
+[2.392s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm5/visual/link3.stl
+[2.398s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850
+[2.398s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/visual
+[2.399s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/visual/link4.stl
+[2.399s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/visual/link6.stl
+[2.400s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/visual/link2.stl
+[2.400s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/visual/link5.stl
+[2.400s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/visual/link_base.stl
+[2.407s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/visual/link1.stl
+[2.408s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/visual/link3.stl
+[2.408s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/collision
+[2.408s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/collision/link4.stl
+[2.408s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/collision/link6.stl
+[2.409s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/collision/link2.stl
+[2.410s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/collision/link5.stl
+[2.411s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/collision/link_base.stl
+[2.412s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/collision/link1.stl
+[2.412s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/uf850/collision/link3.stl
+[2.413s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm6
+[2.413s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm6/visual
+[2.414s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link4.stl
+[2.418s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link6.stl
+[2.418s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link2.stl
+[2.425s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link5.stl
+[2.425s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link_base.stl
+[2.426s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link1.stl
+[2.426s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link3.stl
+[2.427s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/end_tool
+[2.428s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/end_tool/visual
+[2.428s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/end_tool/visual/end_tool_1300.stl
+[2.429s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/end_tool/collision
+[2.429s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool.stl
+[2.429s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool_1300.stl
+[2.430s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch
+[2.432s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/_rviz_display.launch.py
+[2.432s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/_robot_joint_state.launch.py
+[2.436s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/xarm7_mirror_rviz_display.launch.py
+[2.437s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/uf850_rviz_display.launch.py
+[2.437s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/lib
+[2.438s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/lib/robot_description_lib.py
+[2.438s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/lite6_rviz_display.launch.py
+[2.438s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/xarm5_rviz_display.launch.py
+[2.438s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/_robot_rviz_display.launch.py
+[2.438s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/xarm6_rviz_display.launch.py
+[2.439s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/xarm7_rviz_display.launch.py
+[2.439s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description//launch/_robot_description.launch.py
+[2.443s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/ament_index/resource_index/package_run_dependencies/xarm_description
+[2.444s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/ament_index/resource_index/parent_prefix_path/xarm_description
+[2.445s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/environment/ament_prefix_path.sh
+[2.446s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/environment/ament_prefix_path.dsv
+[2.446s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/environment/path.sh
+[2.446s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/environment/path.dsv
+[2.446s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/local_setup.bash
+[2.446s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/local_setup.sh
+[2.447s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/local_setup.zsh
+[2.447s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/local_setup.dsv
+[2.448s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/package.dsv
+[2.449s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/ament_index/resource_index/packages/xarm_description
+[2.449s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig.cmake
+[2.449s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig-version.cmake
+[2.449s] -- Installing: /root/ros2_frws/src/install/xarm_description/share/xarm_description/package.xml
+[2.459s] Invoked command in '/root/ros2_frws/src/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/src/build/xarm_description

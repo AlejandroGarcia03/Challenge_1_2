@@ -1,0 +1,37 @@
+[0.455s] Invoking command in '/root/ros2_frws/src/build/rviz_ogre_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/rviz/rviz_ogre_vendor -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/rviz_ogre_vendor
+[1.662s] -- The C compiler identification is GNU 11.4.0
+[1.662s] -- The CXX compiler identification is GNU 11.4.0
+[1.662s] -- Detecting C compiler ABI info
+[1.662s] -- Detecting C compiler ABI info - done
+[1.662s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.662s] -- Detecting C compile features
+[1.662s] -- Detecting C compile features - done
+[1.663s] -- Detecting CXX compiler ABI info
+[1.663s] -- Detecting CXX compiler ABI info - done
+[1.663s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.663s] -- Detecting CXX compile features
+[1.663s] -- Detecting CXX compile features - done
+[1.663s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.663s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.106s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[2.106s]   By not providing "Findament_cmake_vendor_package.cmake" in
+[2.106s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[2.106s]   configuration file provided by "ament_cmake_vendor_package", but CMake did
+[2.106s]   not find one.
+[2.106s] 
+[2.106s]   Could not find a package configuration file provided by
+[2.106s]   "ament_cmake_vendor_package" with any of the following names:
+[2.106s] 
+[2.106s]     ament_cmake_vendor_packageConfig.cmake
+[2.107s]     ament_cmake_vendor_package-config.cmake
+[2.107s] 
+[2.107s]   Add the installation prefix of "ament_cmake_vendor_package" to
+[2.107s]   CMAKE_PREFIX_PATH or set "ament_cmake_vendor_package_DIR" to a directory
+[2.107s]   containing one of the above files.  If "ament_cmake_vendor_package"
+[2.107s]   provides a separate development package or SDK, be sure it has been
+[2.107s]   installed.
+[2.107s] 
+[2.107s] [0m
+[2.107s] -- Configuring incomplete, errors occurred!
+[2.107s] See also "/root/ros2_frws/src/build/rviz_ogre_vendor/CMakeFiles/CMakeOutput.log".
+[2.133s] Invoked command in '/root/ros2_frws/src/build/rviz_ogre_vendor' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/rviz/rviz_ogre_vendor -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/rviz_ogre_vendor

@@ -1,0 +1,35 @@
+[0.050s] Invoking command in '/root/ros2_frws/src/build/my_params_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/my_params_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/my_params_interfaces
+[0.167s] -- The C compiler identification is GNU 11.4.0
+[0.257s] -- The CXX compiler identification is GNU 11.4.0
+[0.266s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.380s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.517s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.517s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.531s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.950s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.123s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.123s]   By not providing "Findrosidl_defualt_generators.cmake" in CMAKE_MODULE_PATH
+[1.124s]   this project has asked CMake to find a package configuration file provided
+[1.124s]   by "rosidl_defualt_generators", but CMake did not find one.
+[1.124s] 
+[1.124s]   Could not find a package configuration file provided by
+[1.124s]   "rosidl_defualt_generators" with any of the following names:
+[1.124s] 
+[1.124s]     rosidl_defualt_generatorsConfig.cmake
+[1.124s]     rosidl_defualt_generators-config.cmake
+[1.124s] 
+[1.124s]   Add the installation prefix of "rosidl_defualt_generators" to
+[1.124s]   CMAKE_PREFIX_PATH or set "rosidl_defualt_generators_DIR" to a directory
+[1.124s]   containing one of the above files.  If "rosidl_defualt_generators" provides
+[1.125s]   a separate development package or SDK, be sure it has been installed.
+[1.125s] 
+[1.125s] [0m
+[1.125s] -- Configuring incomplete, errors occurred!
+[1.125s] See also "/root/ros2_frws/src/build/my_params_interfaces/CMakeFiles/CMakeOutput.log".
+[1.129s] Invoked command in '/root/ros2_frws/src/build/my_params_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/my_params_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/my_params_interfaces

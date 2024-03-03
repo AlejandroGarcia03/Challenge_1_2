@@ -1,0 +1,38 @@
+[2.687s] Invoking command in '/root/ros2_frws/src/challenge_2': PYTHONPATH=/root/ros2_frws/src/build/challenge_2/prefix_override:/root/ros2_frws/src/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/challenge_2 build --build-base /root/ros2_frws/src/build/challenge_2/build install --record /root/ros2_frws/src/build/challenge_2/install.log --single-version-externally-managed
+[2.998s] running egg_info
+[2.999s] writing ../build/challenge_2/challenge_2.egg-info/PKG-INFO
+[2.999s] writing dependency_links to ../build/challenge_2/challenge_2.egg-info/dependency_links.txt
+[2.999s] writing entry points to ../build/challenge_2/challenge_2.egg-info/entry_points.txt
+[2.999s] writing requirements to ../build/challenge_2/challenge_2.egg-info/requires.txt
+[2.999s] writing top-level names to ../build/challenge_2/challenge_2.egg-info/top_level.txt
+[2.999s] reading manifest file '../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[2.999s] adding license file 'LICENSE'
+[2.999s] writing manifest file '../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[2.999s] running build
+[3.000s] running build_py
+[3.000s] copying challenge_2/signal_generator.py -> /root/ros2_frws/src/build/challenge_2/build/lib/challenge_2
+[3.000s] running install
+[3.000s] running install_lib
+[3.000s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.000s] !!
+[3.001s] 
+[3.001s]         ********************************************************************************
+[3.001s]         Please avoid running ``setup.py`` directly.
+[3.001s]         Instead, use pypa/build, pypa/installer or other
+[3.001s]         standards-based tools.
+[3.002s] 
+[3.002s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.002s]         ********************************************************************************
+[3.002s] 
+[3.003s] !!
+[3.003s]   self.initialize_options()
+[3.017s] copying /root/ros2_frws/src/build/challenge_2/build/lib/challenge_2/signal_generator.py -> /root/ros2_frws/src/install/challenge_2/lib/python3.10/site-packages/challenge_2
+[3.017s] byte-compiling /root/ros2_frws/src/install/challenge_2/lib/python3.10/site-packages/challenge_2/signal_generator.py to signal_generator.cpython-310.pyc
+[3.017s] running install_data
+[3.026s] running install_egg_info
+[3.048s] removing '/root/ros2_frws/src/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info' (and everything under it)
+[3.050s] Copying ../build/challenge_2/challenge_2.egg-info to /root/ros2_frws/src/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info
+[3.052s] running install_scripts
+[3.223s] Installing signal_generator script to /root/ros2_frws/src/install/challenge_2/lib/challenge_2
+[3.224s] writing list of installed files to '/root/ros2_frws/src/build/challenge_2/install.log'
+[3.619s] Invoked command in '/root/ros2_frws/src/challenge_2' returned '0': PYTHONPATH=/root/ros2_frws/src/build/challenge_2/prefix_override:/root/ros2_frws/src/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/challenge_2 build --build-base /root/ros2_frws/src/build/challenge_2/build install --record /root/ros2_frws/src/build/challenge_2/install.log --single-version-externally-managed

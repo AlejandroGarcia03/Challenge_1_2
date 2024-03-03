@@ -1,0 +1,2 @@
+[console_scripts]
+signal_generator = challenge_2.signal_generator:main

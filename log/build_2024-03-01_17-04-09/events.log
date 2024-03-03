@@ -1,0 +1,658 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (basic_comms) JobQueued: {'identifier': 'basic_comms', 'dependencies': OrderedDict()}
+[0.000526] (basic_comms_param) JobQueued: {'identifier': 'basic_comms_param', 'dependencies': OrderedDict()}
+[0.000711] (course_works) JobQueued: {'identifier': 'course_works', 'dependencies': OrderedDict()}
+[0.000818] (my_msg_interfaces) JobQueued: {'identifier': 'my_msg_interfaces', 'dependencies': OrderedDict()}
+[0.001006] (realsense_gazebo_plugin) JobQueued: {'identifier': 'realsense_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.001119] (rviz_assimp_vendor) JobQueued: {'identifier': 'rviz_assimp_vendor', 'dependencies': OrderedDict()}
+[0.001175] (rviz_ogre_vendor) JobQueued: {'identifier': 'rviz_ogre_vendor', 'dependencies': OrderedDict()}
+[0.001349] (xarm_msgs) JobQueued: {'identifier': 'xarm_msgs', 'dependencies': OrderedDict()}
+[0.001385] (xarm_sdk) JobQueued: {'identifier': 'xarm_sdk', 'dependencies': OrderedDict()}
+[0.001406] (challenge_2) JobQueued: {'identifier': 'challenge_2', 'dependencies': OrderedDict([('my_msg_interfaces', '/root/ros2_frws/src/install/my_msg_interfaces')])}
+[0.001430] (rviz_rendering) JobQueued: {'identifier': 'rviz_rendering', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor')])}
+[0.001453] (rviz_common) JobQueued: {'identifier': 'rviz_common', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering')])}
+[0.001481] (rviz_rendering_tests) JobQueued: {'identifier': 'rviz_rendering_tests', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering')])}
+[0.001503] (rviz_visual_testing_framework) JobQueued: {'identifier': 'rviz_visual_testing_framework', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common')])}
+[0.001527] (rviz_default_plugins) JobQueued: {'identifier': 'rviz_default_plugins', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common'), ('rviz_rendering_tests', '/root/ros2_frws/src/install/rviz_rendering_tests'), ('rviz_visual_testing_framework', '/root/ros2_frws/src/install/rviz_visual_testing_framework')])}
+[0.001553] (rviz2) JobQueued: {'identifier': 'rviz2', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common'), ('rviz_default_plugins', '/root/ros2_frws/src/install/rviz_default_plugins')])}
+[0.001577] (xarm_description) JobQueued: {'identifier': 'xarm_description', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common'), ('rviz_default_plugins', '/root/ros2_frws/src/install/rviz_default_plugins'), ('rviz2', '/root/ros2_frws/src/install/rviz2')])}
+[0.001602] (xarm_api) JobQueued: {'identifier': 'xarm_api', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('xarm_msgs', '/root/ros2_frws/src/install/xarm_msgs'), ('xarm_sdk', '/root/ros2_frws/src/install/xarm_sdk'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common'), ('rviz_default_plugins', '/root/ros2_frws/src/install/rviz_default_plugins'), ('rviz2', '/root/ros2_frws/src/install/rviz2'), ('xarm_description', '/root/ros2_frws/src/install/xarm_description')])}
+[0.001687] (xarm_controller) JobQueued: {'identifier': 'xarm_controller', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('xarm_msgs', '/root/ros2_frws/src/install/xarm_msgs'), ('xarm_sdk', '/root/ros2_frws/src/install/xarm_sdk'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common'), ('rviz_default_plugins', '/root/ros2_frws/src/install/rviz_default_plugins'), ('rviz2', '/root/ros2_frws/src/install/rviz2'), ('xarm_description', '/root/ros2_frws/src/install/xarm_description'), ('xarm_api', '/root/ros2_frws/src/install/xarm_api')])}
+[0.001720] (xarm_gazebo) JobQueued: {'identifier': 'xarm_gazebo', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('xarm_msgs', '/root/ros2_frws/src/install/xarm_msgs'), ('xarm_sdk', '/root/ros2_frws/src/install/xarm_sdk'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common'), ('rviz_default_plugins', '/root/ros2_frws/src/install/rviz_default_plugins'), ('rviz2', '/root/ros2_frws/src/install/rviz2'), ('xarm_description', '/root/ros2_frws/src/install/xarm_description'), ('xarm_api', '/root/ros2_frws/src/install/xarm_api'), ('xarm_controller', '/root/ros2_frws/src/install/xarm_controller')])}
+[0.001748] (xarm_moveit_config) JobQueued: {'identifier': 'xarm_moveit_config', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('xarm_msgs', '/root/ros2_frws/src/install/xarm_msgs'), ('xarm_sdk', '/root/ros2_frws/src/install/xarm_sdk'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common'), ('rviz_default_plugins', '/root/ros2_frws/src/install/rviz_default_plugins'), ('rviz2', '/root/ros2_frws/src/install/rviz2'), ('xarm_description', '/root/ros2_frws/src/install/xarm_description'), ('xarm_api', '/root/ros2_frws/src/install/xarm_api'), ('xarm_controller', '/root/ros2_frws/src/install/xarm_controller'), ('xarm_gazebo', '/root/ros2_frws/src/install/xarm_gazebo')])}
+[0.001778] (xarm_moveit_servo) JobQueued: {'identifier': 'xarm_moveit_servo', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('xarm_msgs', '/root/ros2_frws/src/install/xarm_msgs'), ('xarm_sdk', '/root/ros2_frws/src/install/xarm_sdk'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common'), ('rviz_default_plugins', '/root/ros2_frws/src/install/rviz_default_plugins'), ('rviz2', '/root/ros2_frws/src/install/rviz2'), ('xarm_description', '/root/ros2_frws/src/install/xarm_description'), ('xarm_api', '/root/ros2_frws/src/install/xarm_api'), ('xarm_controller', '/root/ros2_frws/src/install/xarm_controller'), ('xarm_gazebo', '/root/ros2_frws/src/install/xarm_gazebo'), ('xarm_moveit_config', '/root/ros2_frws/src/install/xarm_moveit_config')])}
+[0.001806] (xarm_planner) JobQueued: {'identifier': 'xarm_planner', 'dependencies': OrderedDict([('rviz_assimp_vendor', '/root/ros2_frws/src/install/rviz_assimp_vendor'), ('rviz_ogre_vendor', '/root/ros2_frws/src/install/rviz_ogre_vendor'), ('xarm_msgs', '/root/ros2_frws/src/install/xarm_msgs'), ('xarm_sdk', '/root/ros2_frws/src/install/xarm_sdk'), ('rviz_rendering', '/root/ros2_frws/src/install/rviz_rendering'), ('rviz_common', '/root/ros2_frws/src/install/rviz_common'), ('rviz_default_plugins', '/root/ros2_frws/src/install/rviz_default_plugins'), ('rviz2', '/root/ros2_frws/src/install/rviz2'), ('xarm_description', '/root/ros2_frws/src/install/xarm_description'), ('xarm_api', '/root/ros2_frws/src/install/xarm_api'), ('xarm_controller', '/root/ros2_frws/src/install/xarm_controller'), ('xarm_gazebo', '/root/ros2_frws/src/install/xarm_gazebo'), ('xarm_moveit_config', '/root/ros2_frws/src/install/xarm_moveit_config')])}
+[0.001924] (rviz_assimp_vendor) JobStarted: {'identifier': 'rviz_assimp_vendor'}
+[0.052725] (rviz_ogre_vendor) JobStarted: {'identifier': 'rviz_ogre_vendor'}
+[0.098962] (-) TimerEvent: {}
+[0.102642] (xarm_msgs) JobStarted: {'identifier': 'xarm_msgs'}
+[0.151025] (xarm_sdk) JobStarted: {'identifier': 'xarm_sdk'}
+[0.199111] (-) TimerEvent: {}
+[0.200892] (my_msg_interfaces) JobStarted: {'identifier': 'my_msg_interfaces'}
+[0.250213] (basic_comms) JobStarted: {'identifier': 'basic_comms'}
+[0.299265] (-) TimerEvent: {}
+[0.310757] (basic_comms_param) JobStarted: {'identifier': 'basic_comms_param'}
+[0.373607] (course_works) JobStarted: {'identifier': 'course_works'}
+[0.399509] (-) TimerEvent: {}
+[0.450415] (realsense_gazebo_plugin) JobStarted: {'identifier': 'realsense_gazebo_plugin'}
+[0.499662] (-) TimerEvent: {}
+[0.502661] (rviz_assimp_vendor) JobProgress: {'identifier': 'rviz_assimp_vendor', 'progress': 'cmake'}
+[0.503061] (rviz_assimp_vendor) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_frws/src/rviz/rviz_assimp_vendor', '-DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/rviz_assimp_vendor'], 'cwd': '/root/ros2_frws/src/build/rviz_assimp_vendor', 'env': OrderedDict([('HOSTNAME', '77473671da6f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_frws'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0ecffc5f-cfad-48af-b1d9-4811f8491907.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/ros2_frws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a9980115-a10a-4bec-b14d-30e7d9ec4499.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-68a4ecdcc3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_frws/src/build/rviz_assimp_vendor'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages:/root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages:/root/ros2_frws/install/course_works/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_params/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble')]), 'shell': False}
+[0.505828] (rviz_ogre_vendor) JobProgress: {'identifier': 'rviz_ogre_vendor', 'progress': 'cmake'}
+[0.505956] (rviz_ogre_vendor) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_frws/src/rviz/rviz_ogre_vendor', '-DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/rviz_ogre_vendor'], 'cwd': '/root/ros2_frws/src/build/rviz_ogre_vendor', 'env': OrderedDict([('HOSTNAME', '77473671da6f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_frws'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0ecffc5f-cfad-48af-b1d9-4811f8491907.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/ros2_frws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a9980115-a10a-4bec-b14d-30e7d9ec4499.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-68a4ecdcc3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_frws/src/build/rviz_ogre_vendor'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages:/root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages:/root/ros2_frws/install/course_works/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_params/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble')]), 'shell': False}
+[0.507951] (xarm_msgs) JobProgress: {'identifier': 'xarm_msgs', 'progress': 'cmake'}
+[0.509200] (xarm_msgs) JobProgress: {'identifier': 'xarm_msgs', 'progress': 'build'}
+[0.510727] (xarm_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_frws/src/build/xarm_msgs', '--', '-j16', '-l16'], 'cwd': '/root/ros2_frws/src/build/xarm_msgs', 'env': OrderedDict([('HOSTNAME', '77473671da6f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_frws'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0ecffc5f-cfad-48af-b1d9-4811f8491907.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/ros2_frws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a9980115-a10a-4bec-b14d-30e7d9ec4499.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-68a4ecdcc3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_frws/src/build/xarm_msgs'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages:/root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages:/root/ros2_frws/install/course_works/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_params/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble')]), 'shell': False}
+[0.512787] (xarm_sdk) JobProgress: {'identifier': 'xarm_sdk', 'progress': 'cmake'}
+[0.513267] (xarm_sdk) JobProgress: {'identifier': 'xarm_sdk', 'progress': 'build'}
+[0.514153] (xarm_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_frws/src/build/xarm_sdk', '--', '-j16', '-l16'], 'cwd': '/root/ros2_frws/src/build/xarm_sdk', 'env': OrderedDict([('HOSTNAME', '77473671da6f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_frws'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0ecffc5f-cfad-48af-b1d9-4811f8491907.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/ros2_frws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a9980115-a10a-4bec-b14d-30e7d9ec4499.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-68a4ecdcc3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_frws/src/build/xarm_sdk'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages:/root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages:/root/ros2_frws/install/course_works/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_params/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble')]), 'shell': False}
+[0.517627] (my_msg_interfaces) JobProgress: {'identifier': 'my_msg_interfaces', 'progress': 'cmake'}
+[0.517680] (my_msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_frws/src/my_msg_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/ros2_frws/src/install/my_msg_interfaces'], 'cwd': '/root/ros2_frws/src/build/my_msg_interfaces', 'env': OrderedDict([('HOSTNAME', '77473671da6f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_frws'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0ecffc5f-cfad-48af-b1d9-4811f8491907.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/ros2_frws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a9980115-a10a-4bec-b14d-30e7d9ec4499.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-68a4ecdcc3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_frws/src/build/my_msg_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages:/root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages:/root/ros2_frws/install/course_works/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_params/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble')]), 'shell': False}
+[0.599804] (-) TimerEvent: {}
+[0.700259] (-) TimerEvent: {}
+[0.800932] (-) TimerEvent: {}
+[0.901344] (-) TimerEvent: {}
+[1.002583] (-) TimerEvent: {}
+[1.110420] (-) TimerEvent: {}
+[1.211175] (-) TimerEvent: {}
+[1.311902] (-) TimerEvent: {}
+[1.412631] (-) TimerEvent: {}
+[1.513056] (-) TimerEvent: {}
+[1.613561] (-) TimerEvent: {}
+[1.707602] (rviz_assimp_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.707846] (rviz_assimp_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.707938] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.708001] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.708054] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.708107] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.708183] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.708257] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.708314] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.708367] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.708419] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.708471] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.708522] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.714610] (rviz_ogre_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.714866] (-) TimerEvent: {}
+[1.715090] (rviz_ogre_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.715216] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.715289] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.715346] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.715406] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.715463] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.715521] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.715578] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.715660] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.715728] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.715785] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.715844] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.715905] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.720709] (xarm_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.720935] (xarm_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.721027] (xarm_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.721093] (xarm_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.721155] (xarm_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.721216] (xarm_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.721273] (xarm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.721327] (xarm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.721382] (xarm_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.721439] (xarm_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.736604] (xarm_sdk) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.736895] (xarm_sdk) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.737019] (xarm_sdk) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.737095] (xarm_sdk) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.737153] (xarm_sdk) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2_frws/src/xarm_ros2/xarm_sdk/cxx/include\n'}
+[1.737210] (xarm_sdk) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.737272] (xarm_sdk) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.737327] (xarm_sdk) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.737386] (xarm_sdk) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.737449] (xarm_sdk) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.737512] (xarm_sdk) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.737576] (xarm_sdk) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.737650] (xarm_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.737750] (xarm_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[1.737830] (xarm_sdk) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_frws/src/build/xarm_sdk\n'}
+[1.737901] (xarm_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_cxx_sdk\x1b[0m\n'}
+[1.737972] (xarm_sdk) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/win.cc.o\x1b[0m\n'}
+[1.738050] (xarm_sdk) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[1.738616] (xarm_sdk) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_osx.cc.o\x1b[0m\n'}
+[1.741885] (xarm_sdk) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/serial.cc.o\x1b[0m\n'}
+[1.742196] (xarm_sdk) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/unix.cc.o\x1b[0m\n'}
+[1.742468] (xarm_sdk) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_win.cc.o\x1b[0m\n'}
+[1.742630] (xarm_sdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/queue_memcpy.cc.o\x1b[0m\n'}
+[1.742810] (xarm_sdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/crc16.cc.o\x1b[0m\n'}
+[1.742903] (xarm_sdk) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/connect.cc.o\x1b[0m\n'}
+[1.742979] (xarm_sdk) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/debug/debug_print.cc.o\x1b[0m\n'}
+[1.743059] (xarm_sdk) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd.cc.o\x1b[0m\n'}
+[1.743159] (xarm_sdk) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/os/network.cc.o\x1b[0m\n'}
+[1.743233] (xarm_sdk) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_ser.cc.o\x1b[0m\n'}
+[1.743340] (xarm_sdk) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/ser.cc.o\x1b[0m\n'}
+[1.743628] (xarm_sdk) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_tcp.cc.o\x1b[0m\n'}
+[1.743754] (xarm_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/socket.cc.o\x1b[0m\n'}
+[1.743832] (xarm_sdk) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/report_data.cc.o\x1b[0m\n'}
+[1.743898] (xarm_sdk) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_api.cc.o\x1b[0m\n'}
+[1.743993] (xarm_sdk) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_bio.cc.o\x1b[0m\n'}
+[1.744134] (xarm_sdk) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_events.cc.o\x1b[0m\n'}
+[1.744441] (xarm_sdk) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_ft_sensor.cc.o\x1b[0m\n'}
+[1.744638] (xarm_sdk) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gpio.cc.o\x1b[0m\n'}
+[1.744903] (xarm_sdk) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gripper.cc.o\x1b[0m\n'}
+[1.745105] (xarm_sdk) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_modbus_tcp.cc.o\x1b[0m\n'}
+[1.745203] (xarm_sdk) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_params.cc.o\x1b[0m\n'}
+[1.745304] (xarm_sdk) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_motion.cc.o\x1b[0m\n'}
+[1.745415] (xarm_sdk) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_record.cc.o\x1b[0m\n'}
+[1.745547] (xarm_sdk) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_report.cc.o\x1b[0m\n'}
+[1.745780] (xarm_sdk) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_robotiq.cc.o\x1b[0m\n'}
+[1.765167] (my_msg_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.766013] (my_msg_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.766270] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.766551] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.766784] (my_msg_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.766945] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.767200] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.767535] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.767758] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.767997] (my_msg_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.768171] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.768248] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.768315] (my_msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.768683] (xarm_sdk) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_servo.cc.o\x1b[0m\n'}
+[1.782504] (xarm_sdk) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_track.cc.o\x1b[0m\n'}
+[1.791185] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'cmake'}
+[1.792489] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'build'}
+[1.795190] (realsense_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_frws/src/build/realsense_gazebo_plugin', '--', '-j16', '-l16'], 'cwd': '/root/ros2_frws/src/build/realsense_gazebo_plugin', 'env': OrderedDict([('HOSTNAME', '77473671da6f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_frws'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0ecffc5f-cfad-48af-b1d9-4811f8491907.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('COLCON_PREFIX_PATH', '/root/ros2_frws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a9980115-a10a-4bec-b14d-30e7d9ec4499.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-68a4ecdcc3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_frws/src/build/realsense_gazebo_plugin'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages:/root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages:/root/ros2_frws/install/course_works/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_params/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble')]), 'shell': False}
+[1.811309] (my_msg_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.817795] (-) TimerEvent: {}
+[1.890304] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.925872] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.926390] (-) TimerEvent: {}
+[2.027518] (-) TimerEvent: {}
+[2.128904] (-) TimerEvent: {}
+[2.158582] (rviz_ogre_vendor) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[2.158868] (rviz_ogre_vendor) StderrLine: {'line': b'  By not providing "Findament_cmake_vendor_package.cmake" in\n'}
+[2.158992] (rviz_ogre_vendor) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[2.159076] (rviz_ogre_vendor) StderrLine: {'line': b'  configuration file provided by "ament_cmake_vendor_package", but CMake did\n'}
+[2.159147] (rviz_ogre_vendor) StderrLine: {'line': b'  not find one.\n'}
+[2.159212] (rviz_ogre_vendor) StderrLine: {'line': b'\n'}
+[2.159274] (rviz_ogre_vendor) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[2.159340] (rviz_ogre_vendor) StderrLine: {'line': b'  "ament_cmake_vendor_package" with any of the following names:\n'}
+[2.159403] (rviz_ogre_vendor) StderrLine: {'line': b'\n'}
+[2.159463] (rviz_ogre_vendor) StderrLine: {'line': b'    ament_cmake_vendor_packageConfig.cmake\n'}
+[2.159524] (rviz_ogre_vendor) StderrLine: {'line': b'    ament_cmake_vendor_package-config.cmake\n'}
+[2.159629] (rviz_ogre_vendor) StderrLine: {'line': b'\n'}
+[2.159701] (rviz_ogre_vendor) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_vendor_package" to\n'}
+[2.159756] (rviz_ogre_vendor) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "ament_cmake_vendor_package_DIR" to a directory\n'}
+[2.159815] (rviz_ogre_vendor) StderrLine: {'line': b'  containing one of the above files.  If "ament_cmake_vendor_package"\n'}
+[2.159876] (rviz_ogre_vendor) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.159934] (rviz_ogre_vendor) StderrLine: {'line': b'  installed.\n'}
+[2.159994] (rviz_ogre_vendor) StderrLine: {'line': b'\n'}
+[2.160054] (rviz_ogre_vendor) StderrLine: {'line': b'\x1b[0m\n'}
+[2.160177] (rviz_ogre_vendor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.160267] (rviz_ogre_vendor) StdoutLine: {'line': b'See also "/root/ros2_frws/src/build/rviz_ogre_vendor/CMakeFiles/CMakeOutput.log".\n'}
+[2.185820] (rviz_ogre_vendor) CommandEnded: {'returncode': 1}
+[2.213520] (my_msg_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.229639] (-) TimerEvent: {}
+[2.253764] (rviz_assimp_vendor) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[2.253989] (rviz_assimp_vendor) StderrLine: {'line': b'  By not providing "Findament_cmake_vendor_package.cmake" in\n'}
+[2.254069] (rviz_assimp_vendor) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[2.254129] (rviz_assimp_vendor) StderrLine: {'line': b'  configuration file provided by "ament_cmake_vendor_package", but CMake did\n'}
+[2.254185] (rviz_assimp_vendor) StderrLine: {'line': b'  not find one.\n'}
+[2.254238] (rviz_assimp_vendor) StderrLine: {'line': b'\n'}
+[2.254292] (rviz_assimp_vendor) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[2.254345] (rviz_assimp_vendor) StderrLine: {'line': b'  "ament_cmake_vendor_package" with any of the following names:\n'}
+[2.254415] (rviz_assimp_vendor) StderrLine: {'line': b'\n'}
+[2.254472] (rviz_assimp_vendor) StderrLine: {'line': b'    ament_cmake_vendor_packageConfig.cmake\n'}
+[2.254532] (rviz_assimp_vendor) StderrLine: {'line': b'    ament_cmake_vendor_package-config.cmake\n'}
+[2.254587] (rviz_assimp_vendor) StderrLine: {'line': b'\n'}
+[2.254639] (rviz_assimp_vendor) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_vendor_package" to\n'}
+[2.254693] (rviz_assimp_vendor) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "ament_cmake_vendor_package_DIR" to a directory\n'}
+[2.254748] (rviz_assimp_vendor) StderrLine: {'line': b'  containing one of the above files.  If "ament_cmake_vendor_package"\n'}
+[2.254801] (rviz_assimp_vendor) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.254853] (rviz_assimp_vendor) StderrLine: {'line': b'  installed.\n'}
+[2.254907] (rviz_assimp_vendor) StderrLine: {'line': b'\n'}
+[2.254958] (rviz_assimp_vendor) StderrLine: {'line': b'\x1b[0m\n'}
+[2.255010] (rviz_assimp_vendor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.255081] (rviz_assimp_vendor) StdoutLine: {'line': b'See also "/root/ros2_frws/src/build/rviz_assimp_vendor/CMakeFiles/CMakeOutput.log".\n'}
+[2.329756] (-) TimerEvent: {}
+[2.392693] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.397046] (my_msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.398131] (rviz_ogre_vendor) JobEnded: {'identifier': 'rviz_ogre_vendor', 'rc': 1}
+[2.404315] (rviz_assimp_vendor) JobEnded: {'identifier': 'rviz_assimp_vendor', 'rc': 'SIGINT'}
+[2.429880] (-) TimerEvent: {}
+[2.450248] (my_msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.472853] (my_msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.481497] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.484371] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.502739] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.530644] (-) TimerEvent: {}
+[2.544282] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.559805] (my_msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.625833] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.630529] (-) TimerEvent: {}
+[2.662626] (my_msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.722393] (my_msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.732582] (-) TimerEvent: {}
+[2.833064] (-) TimerEvent: {}
+[2.909649] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.924087] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.933188] (-) TimerEvent: {}
+[3.034978] (-) TimerEvent: {}
+[3.135544] (-) TimerEvent: {}
+[3.167495] (basic_comms) JobEnded: {'identifier': 'basic_comms', 'rc': 'SIGINT'}
+[3.188770] (course_works) JobEnded: {'identifier': 'course_works', 'rc': 'SIGINT'}
+[3.202211] (basic_comms_param) JobEnded: {'identifier': 'basic_comms_param', 'rc': 'SIGINT'}
+[3.223113] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.227404] (xarm_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.235706] (-) TimerEvent: {}
+[3.242614] (my_msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.335823] (-) TimerEvent: {}
+[3.392247] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[3.432537] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.435942] (-) TimerEvent: {}
+[3.478570] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.482735] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.492283] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.494746] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.499650] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.500146] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.507362] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.507881] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.507962] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.508011] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.508055] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.508097] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.508139] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.508179] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.508221] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.508263] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.508305] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.508356] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.536073] (-) TimerEvent: {}
+[3.575931] (my_msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.636199] (-) TimerEvent: {}
+[3.642431] (xarm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.667884] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.669035] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.669440] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.694262] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.694882] (my_msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.710910] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.715095] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.715662] (my_msg_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.721038] (my_msg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.731112] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.736302] (-) TimerEvent: {}
+[3.746076] (my_msg_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.746363] (my_msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.746454] (my_msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.746503] (my_msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.766547] (my_msg_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.769739] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.782399] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.787307] (xarm_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.807432] (xarm_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.809281] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.809770] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.816249] (my_msg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.827406] (xarm_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.827630] (xarm_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.827721] (xarm_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.832755] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.836439] (-) TimerEvent: {}
+[3.838094] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.852890] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.859674] (my_msg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.862582] (my_msg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_frws/src/build/my_msg_interfaces\n'}
+[3.870806] (my_msg_interfaces) JobEnded: {'identifier': 'my_msg_interfaces', 'rc': 'SIGINT'}
+[3.882690] (xarm_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.884595] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.885420] (xarm_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.885651] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.886039] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.886453] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.886550] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.887311] (xarm_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.893988] (xarm_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.899469] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.900576] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.901197] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.901547] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.903394] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.903678] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.936621] (-) TimerEvent: {}
+[3.953117] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.966292] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.995480] (realsense_gazebo_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.008778] (realsense_gazebo_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.032072] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.032302] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.032518] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.034907] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.035713] (xarm_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.036696] (-) TimerEvent: {}
+[4.038581] (xarm_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_frws/src/build/xarm_msgs\n'}
+[4.038897] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found image_transport: 3.1.8 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[4.077554] (xarm_msgs) StdoutLine: {'line': b'[  0%] Built target xarm_msgs__cpp\n'}
+[4.085015] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_generator_c\x1b[0m\n'}
+[4.107128] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.107905] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.109778] (xarm_msgs) StdoutLine: {'line': b'[ 12%] Built target xarm_msgs__rosidl_generator_c\n'}
+[4.112509] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.118617] (xarm_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_xarm_msgs\n'}
+[4.129415] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.130238] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.136829] (-) TimerEvent: {}
+[4.140326] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.151410] (xarm_msgs) StdoutLine: {'line': b'[ 37%] Built target xarm_msgs__rosidl_typesupport_c\n'}
+[4.151896] (xarm_msgs) StdoutLine: {'line': b'[ 37%] Built target xarm_msgs__rosidl_typesupport_cpp\n'}
+[4.155754] (xarm_msgs) StdoutLine: {'line': b'[ 50%] Built target xarm_msgs__rosidl_typesupport_introspection_c\n'}
+[4.162998] (xarm_msgs) StdoutLine: {'line': b'[ 63%] Built target xarm_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.170652] (xarm_msgs) StdoutLine: {'line': b'[ 75%] Built target xarm_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.187899] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.8 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[4.196412] (xarm_msgs) StdoutLine: {'line': b'[ 88%] Built target xarm_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.215563] (xarm_msgs) StdoutLine: {'line': b'[ 88%] Built target xarm_msgs\n'}
+[4.235794] (xarm_msgs) StdoutLine: {'line': b'[ 88%] Built target xarm_msgs__py\n'}
+[4.236933] (-) TimerEvent: {}
+[4.245470] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.266551] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_generator_py\x1b[0m\n'}
+[4.306885] (xarm_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.310832] (xarm_msgs) StdoutLine: {'line': b'[100%] Built target xarm_msgs__rosidl_generator_py\n'}
+[4.313279] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.319086] (xarm_msgs) StdoutLine: {'line': b'writing xarm_msgs.egg-info/PKG-INFO\n'}
+[4.319364] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.319571] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.319666] (xarm_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.319740] (xarm_msgs) StdoutLine: {'line': b'writing dependency_links to xarm_msgs.egg-info/dependency_links.txt\n'}
+[4.319905] (xarm_msgs) StdoutLine: {'line': b'writing top-level names to xarm_msgs.egg-info/top_level.txt\n'}
+[4.331228] (xarm_msgs) StdoutLine: {'line': b'[100%] Built target xarm_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.331414] (xarm_msgs) StdoutLine: {'line': b'[100%] Built target xarm_msgs__rosidl_typesupport_c__pyext\n'}
+[4.331557] (xarm_msgs) StdoutLine: {'line': b'[100%] Built target xarm_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.337044] (-) TimerEvent: {}
+[4.338707] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[4.341175] (realsense_gazebo_plugin) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_frws/src/build/realsense_gazebo_plugin\n'}
+[4.357066] (xarm_msgs) StdoutLine: {'line': b"reading manifest file 'xarm_msgs.egg-info/SOURCES.txt'\n"}
+[4.359381] (xarm_msgs) StdoutLine: {'line': b"writing manifest file 'xarm_msgs.egg-info/SOURCES.txt'\n"}
+[4.376941] (realsense_gazebo_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense_gazebo_plugin\x1b[0m\n'}
+[4.385357] (xarm_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_xarm_msgs_egg\n'}
+[4.397989] (xarm_msgs) JobEnded: {'identifier': 'xarm_msgs', 'rc': 'SIGINT'}
+[4.426034] (realsense_gazebo_plugin) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o\x1b[0m\n'}
+[4.427587] (realsense_gazebo_plugin) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o\x1b[0m\n'}
+[4.437193] (-) TimerEvent: {}
+[4.537559] (-) TimerEvent: {}
+[4.637941] (-) TimerEvent: {}
+[4.735056] (xarm_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libxarm_cxx_sdk.so\x1b[0m\n'}
+[4.738029] (-) TimerEvent: {}
+[4.838329] (-) TimerEvent: {}
+[4.895415] (xarm_sdk) StdoutLine: {'line': b'[100%] Built target xarm_cxx_sdk\n'}
+[4.904283] (xarm_sdk) JobEnded: {'identifier': 'xarm_sdk', 'rc': 'SIGINT'}
+[4.938483] (-) TimerEvent: {}
+[5.038876] (-) TimerEvent: {}
+[5.139329] (-) TimerEvent: {}
+[5.239682] (-) TimerEvent: {}
+[5.340075] (-) TimerEvent: {}
+[5.440490] (-) TimerEvent: {}
+[5.540900] (-) TimerEvent: {}
+[5.641213] (-) TimerEvent: {}
+[5.741629] (-) TimerEvent: {}
+[5.842142] (-) TimerEvent: {}
+[5.942481] (-) TimerEvent: {}
+[6.042989] (-) TimerEvent: {}
+[6.143441] (-) TimerEvent: {}
+[6.243787] (-) TimerEvent: {}
+[6.344154] (-) TimerEvent: {}
+[6.444562] (-) TimerEvent: {}
+[6.544983] (-) TimerEvent: {}
+[6.645362] (-) TimerEvent: {}
+[6.745855] (-) TimerEvent: {}
+[6.846383] (-) TimerEvent: {}
+[6.946870] (-) TimerEvent: {}
+[7.047261] (-) TimerEvent: {}
+[7.147622] (-) TimerEvent: {}
+[7.248011] (-) TimerEvent: {}
+[7.348374] (-) TimerEvent: {}
+[7.448745] (-) TimerEvent: {}
+[7.549220] (-) TimerEvent: {}
+[7.649676] (-) TimerEvent: {}
+[7.750039] (-) TimerEvent: {}
+[7.850372] (-) TimerEvent: {}
+[7.950753] (-) TimerEvent: {}
+[8.051116] (-) TimerEvent: {}
+[8.151591] (-) TimerEvent: {}
+[8.252056] (-) TimerEvent: {}
+[8.352503] (-) TimerEvent: {}
+[8.452971] (-) TimerEvent: {}
+[8.553408] (-) TimerEvent: {}
+[8.653858] (-) TimerEvent: {}
+[8.754259] (-) TimerEvent: {}
+[8.854685] (-) TimerEvent: {}
+[8.955099] (-) TimerEvent: {}
+[9.055540] (-) TimerEvent: {}
+[9.155989] (-) TimerEvent: {}
+[9.256457] (-) TimerEvent: {}
+[9.357007] (-) TimerEvent: {}
+[9.457512] (-) TimerEvent: {}
+[9.558035] (-) TimerEvent: {}
+[9.658455] (-) TimerEvent: {}
+[9.758932] (-) TimerEvent: {}
+[9.859345] (-) TimerEvent: {}
+[9.959734] (-) TimerEvent: {}
+[10.060161] (-) TimerEvent: {}
+[10.161204] (-) TimerEvent: {}
+[10.261971] (-) TimerEvent: {}
+[10.362375] (-) TimerEvent: {}
+[10.462797] (-) TimerEvent: {}
+[10.563547] (-) TimerEvent: {}
+[10.663954] (-) TimerEvent: {}
+[10.764401] (-) TimerEvent: {}
+[10.864803] (-) TimerEvent: {}
+[10.965549] (-) TimerEvent: {}
+[11.066019] (-) TimerEvent: {}
+[11.166419] (-) TimerEvent: {}
+[11.266838] (-) TimerEvent: {}
+[11.367305] (-) TimerEvent: {}
+[11.467743] (-) TimerEvent: {}
+[11.568215] (-) TimerEvent: {}
+[11.668671] (-) TimerEvent: {}
+[11.769168] (-) TimerEvent: {}
+[11.869740] (-) TimerEvent: {}
+[11.970176] (-) TimerEvent: {}
+[12.070614] (-) TimerEvent: {}
+[12.170971] (-) TimerEvent: {}
+[12.271310] (-) TimerEvent: {}
+[12.371693] (-) TimerEvent: {}
+[12.472094] (-) TimerEvent: {}
+[12.572519] (-) TimerEvent: {}
+[12.672881] (-) TimerEvent: {}
+[12.773314] (-) TimerEvent: {}
+[12.873983] (-) TimerEvent: {}
+[12.974403] (-) TimerEvent: {}
+[13.074920] (-) TimerEvent: {}
+[13.175458] (-) TimerEvent: {}
+[13.275880] (-) TimerEvent: {}
+[13.376223] (-) TimerEvent: {}
+[13.476584] (-) TimerEvent: {}
+[13.576950] (-) TimerEvent: {}
+[13.677356] (-) TimerEvent: {}
+[13.777693] (-) TimerEvent: {}
+[13.878040] (-) TimerEvent: {}
+[13.978451] (-) TimerEvent: {}
+[14.078903] (-) TimerEvent: {}
+[14.179376] (-) TimerEvent: {}
+[14.279765] (-) TimerEvent: {}
+[14.380141] (-) TimerEvent: {}
+[14.480457] (-) TimerEvent: {}
+[14.580835] (-) TimerEvent: {}
+[14.681204] (-) TimerEvent: {}
+[14.781603] (-) TimerEvent: {}
+[14.882059] (-) TimerEvent: {}
+[14.982818] (-) TimerEvent: {}
+[15.083256] (-) TimerEvent: {}
+[15.183696] (-) TimerEvent: {}
+[15.284101] (-) TimerEvent: {}
+[15.384528] (-) TimerEvent: {}
+[15.484945] (-) TimerEvent: {}
+[15.585361] (-) TimerEvent: {}
+[15.685783] (-) TimerEvent: {}
+[15.786215] (-) TimerEvent: {}
+[15.886590] (-) TimerEvent: {}
+[15.986990] (-) TimerEvent: {}
+[16.087443] (-) TimerEvent: {}
+[16.188019] (-) TimerEvent: {}
+[16.288441] (-) TimerEvent: {}
+[16.388876] (-) TimerEvent: {}
+[16.489264] (-) TimerEvent: {}
+[16.589688] (-) TimerEvent: {}
+[16.690157] (-) TimerEvent: {}
+[16.790485] (-) TimerEvent: {}
+[16.890854] (-) TimerEvent: {}
+[16.991240] (-) TimerEvent: {}
+[17.091583] (-) TimerEvent: {}
+[17.191938] (-) TimerEvent: {}
+[17.292361] (-) TimerEvent: {}
+[17.392777] (-) TimerEvent: {}
+[17.493196] (-) TimerEvent: {}
+[17.593634] (-) TimerEvent: {}
+[17.694057] (-) TimerEvent: {}
+[17.794501] (-) TimerEvent: {}
+[17.894944] (-) TimerEvent: {}
+[17.995338] (-) TimerEvent: {}
+[18.095839] (-) TimerEvent: {}
+[18.196432] (-) TimerEvent: {}
+[18.296962] (-) TimerEvent: {}
+[18.397307] (-) TimerEvent: {}
+[18.497722] (-) TimerEvent: {}
+[18.598182] (-) TimerEvent: {}
+[18.698591] (-) TimerEvent: {}
+[18.799080] (-) TimerEvent: {}
+[18.899624] (-) TimerEvent: {}
+[19.000087] (-) TimerEvent: {}
+[19.100582] (-) TimerEvent: {}
+[19.200946] (-) TimerEvent: {}
+[19.301398] (-) TimerEvent: {}
+[19.408312] (-) TimerEvent: {}
+[19.508760] (-) TimerEvent: {}
+[19.609259] (-) TimerEvent: {}
+[19.709819] (-) TimerEvent: {}
+[19.810320] (-) TimerEvent: {}
+[19.910810] (-) TimerEvent: {}
+[20.011314] (-) TimerEvent: {}
+[20.111857] (-) TimerEvent: {}
+[20.212309] (-) TimerEvent: {}
+[20.312789] (-) TimerEvent: {}
+[20.413171] (-) TimerEvent: {}
+[20.513590] (-) TimerEvent: {}
+[20.613990] (-) TimerEvent: {}
+[20.714458] (-) TimerEvent: {}
+[20.814834] (-) TimerEvent: {}
+[20.915245] (-) TimerEvent: {}
+[21.015608] (-) TimerEvent: {}
+[21.116002] (-) TimerEvent: {}
+[21.216438] (-) TimerEvent: {}
+[21.316892] (-) TimerEvent: {}
+[21.417311] (-) TimerEvent: {}
+[21.517754] (-) TimerEvent: {}
+[21.618115] (-) TimerEvent: {}
+[21.718460] (-) TimerEvent: {}
+[21.818846] (-) TimerEvent: {}
+[21.919234] (-) TimerEvent: {}
+[22.019582] (-) TimerEvent: {}
+[22.120007] (-) TimerEvent: {}
+[22.220411] (-) TimerEvent: {}
+[22.320770] (-) TimerEvent: {}
+[22.421156] (-) TimerEvent: {}
+[22.521671] (-) TimerEvent: {}
+[22.622112] (-) TimerEvent: {}
+[22.722516] (-) TimerEvent: {}
+[22.822886] (-) TimerEvent: {}
+[22.923300] (-) TimerEvent: {}
+[23.023763] (-) TimerEvent: {}
+[23.124343] (-) TimerEvent: {}
+[23.224905] (-) TimerEvent: {}
+[23.325333] (-) TimerEvent: {}
+[23.425685] (-) TimerEvent: {}
+[23.526100] (-) TimerEvent: {}
+[23.626448] (-) TimerEvent: {}
+[23.726841] (-) TimerEvent: {}
+[23.827253] (-) TimerEvent: {}
+[23.927684] (-) TimerEvent: {}
+[24.028025] (-) TimerEvent: {}
+[24.128412] (-) TimerEvent: {}
+[24.228850] (-) TimerEvent: {}
+[24.329299] (-) TimerEvent: {}
+[24.429760] (-) TimerEvent: {}
+[24.530242] (-) TimerEvent: {}
+[24.630781] (-) TimerEvent: {}
+[24.731293] (-) TimerEvent: {}
+[24.831747] (-) TimerEvent: {}
+[24.932195] (-) TimerEvent: {}
+[25.032631] (-) TimerEvent: {}
+[25.133037] (-) TimerEvent: {}
+[25.233482] (-) TimerEvent: {}
+[25.333896] (-) TimerEvent: {}
+[25.434321] (-) TimerEvent: {}
+[25.534798] (-) TimerEvent: {}
+[25.635312] (-) TimerEvent: {}
+[25.735691] (-) TimerEvent: {}
+[25.836152] (-) TimerEvent: {}
+[25.936647] (-) TimerEvent: {}
+[26.037132] (-) TimerEvent: {}
+[26.137624] (-) TimerEvent: {}
+[26.238028] (-) TimerEvent: {}
+[26.338430] (-) TimerEvent: {}
+[26.438892] (-) TimerEvent: {}
+[26.539372] (-) TimerEvent: {}
+[26.639915] (-) TimerEvent: {}
+[26.740331] (-) TimerEvent: {}
+[26.840728] (-) TimerEvent: {}
+[26.941123] (-) TimerEvent: {}
+[27.041523] (-) TimerEvent: {}
+[27.141960] (-) TimerEvent: {}
+[27.242529] (-) TimerEvent: {}
+[27.343155] (-) TimerEvent: {}
+[27.443557] (-) TimerEvent: {}
+[27.544283] (-) TimerEvent: {}
+[27.644721] (-) TimerEvent: {}
+[27.745169] (-) TimerEvent: {}
+[27.845617] (-) TimerEvent: {}
+[27.946069] (-) TimerEvent: {}
+[28.046473] (-) TimerEvent: {}
+[28.146976] (-) TimerEvent: {}
+[28.247625] (-) TimerEvent: {}
+[28.348212] (-) TimerEvent: {}
+[28.448816] (-) TimerEvent: {}
+[28.549332] (-) TimerEvent: {}
+[28.649786] (-) TimerEvent: {}
+[28.750307] (-) TimerEvent: {}
+[28.850928] (-) TimerEvent: {}
+[28.951407] (-) TimerEvent: {}
+[29.051857] (-) TimerEvent: {}
+[29.152277] (-) TimerEvent: {}
+[29.252735] (-) TimerEvent: {}
+[29.353173] (-) TimerEvent: {}
+[29.453675] (-) TimerEvent: {}
+[29.554230] (-) TimerEvent: {}
+[29.651783] (realsense_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librealsense_gazebo_plugin.so\x1b[0m\n'}
+[29.654296] (-) TimerEvent: {}
+[29.754609] (-) TimerEvent: {}
+[29.855057] (-) TimerEvent: {}
+[29.955536] (-) TimerEvent: {}
+[30.055964] (-) TimerEvent: {}
+[30.156337] (-) TimerEvent: {}
+[30.256844] (-) TimerEvent: {}
+[30.357311] (-) TimerEvent: {}
+[30.370227] (realsense_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target realsense_gazebo_plugin\n'}
+[30.381567] (realsense_gazebo_plugin) JobEnded: {'identifier': 'realsense_gazebo_plugin', 'rc': 'SIGINT'}
+[30.394203] (challenge_2) JobSkipped: {'identifier': 'challenge_2'}
+[30.394458] (rviz_rendering) JobSkipped: {'identifier': 'rviz_rendering'}
+[30.394562] (rviz_common) JobSkipped: {'identifier': 'rviz_common'}
+[30.394707] (rviz_rendering_tests) JobSkipped: {'identifier': 'rviz_rendering_tests'}
+[30.394811] (rviz_visual_testing_framework) JobSkipped: {'identifier': 'rviz_visual_testing_framework'}
+[30.394962] (rviz_default_plugins) JobSkipped: {'identifier': 'rviz_default_plugins'}
+[30.395036] (rviz2) JobSkipped: {'identifier': 'rviz2'}
+[30.395134] (xarm_description) JobSkipped: {'identifier': 'xarm_description'}
+[30.395178] (xarm_api) JobSkipped: {'identifier': 'xarm_api'}
+[30.395196] (xarm_controller) JobSkipped: {'identifier': 'xarm_controller'}
+[30.395210] (xarm_gazebo) JobSkipped: {'identifier': 'xarm_gazebo'}
+[30.395223] (xarm_moveit_config) JobSkipped: {'identifier': 'xarm_moveit_config'}
+[30.395238] (xarm_moveit_servo) JobSkipped: {'identifier': 'xarm_moveit_servo'}
+[30.395253] (xarm_planner) JobSkipped: {'identifier': 'xarm_planner'}
+[30.395266] (-) EventReactorShutdown: {}
