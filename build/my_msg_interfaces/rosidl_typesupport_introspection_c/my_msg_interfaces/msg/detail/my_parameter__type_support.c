@@ -35,7 +35,7 @@ void my_msg_interfaces__msg__MyParameter__rosidl_typesupport_introspection_c__My
   my_msg_interfaces__msg__MyParameter__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember my_msg_interfaces__msg__MyParameter__rosidl_typesupport_introspection_c__MyParameter_message_member_array[6] = {
+static rosidl_typesupport_introspection_c__MessageMember my_msg_interfaces__msg__MyParameter__rosidl_typesupport_introspection_c__MyParameter_message_member_array[7] = {
   {
     "type",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -123,7 +123,7 @@ static rosidl_typesupport_introspection_c__MessageMember my_msg_interfaces__msg_
   },
   {
     "time",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -137,13 +137,30 @@ static rosidl_typesupport_introspection_c__MessageMember my_msg_interfaces__msg_
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "signal",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(my_msg_interfaces__msg__MyParameter, signal),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers my_msg_interfaces__msg__MyParameter__rosidl_typesupport_introspection_c__MyParameter_message_members = {
   "my_msg_interfaces__msg",  // message namespace
   "MyParameter",  // message name
-  6,  // number of fields
+  7,  // number of fields
   sizeof(my_msg_interfaces__msg__MyParameter),
   my_msg_interfaces__msg__MyParameter__rosidl_typesupport_introspection_c__MyParameter_message_member_array,  // message members
   my_msg_interfaces__msg__MyParameter__rosidl_typesupport_introspection_c__MyParameter_init_function,  // function to initialize message memory (memory has to be allocated)

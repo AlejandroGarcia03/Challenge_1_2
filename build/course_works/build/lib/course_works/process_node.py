@@ -26,13 +26,13 @@ class Process(Node):
 
     def procesed_signal(self):
         # Agregar el offset y reducir la amplitud al valor de la señal senoidal almacenado
-        processed_value = self.msg_proc_signal.data*math.cos(math.pi/2) + math.sin(math.pi/2)*math.cos(self.msg_time.data)
+        processed_value = self.msg_proc_signal.data*math.cos(0) + math.sin(0)*math.cos(self.msg_time.data)
         # Crear un nuevo mensaje Float32 y asignarle el valor procesado
         self.msg_proc_signal.data = processed_value
         # Publicar el mensaje procesado en el tópico '/proc_signal'
         self.publisher_proc_signal.publish(self.msg_proc_signal)
         self.get_logger().info("Processed Signal: %f" % processed_value)
-
+ 
 def main(args=None):
     rclpy.init(args=args)
     process = Process()

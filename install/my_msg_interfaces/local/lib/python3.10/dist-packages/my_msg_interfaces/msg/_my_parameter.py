@@ -63,6 +63,7 @@ class MyParameter(metaclass=Metaclass_MyParameter):
         '_offset',
         '_phase',
         '_time',
+        '_signal',
     ]
 
     _fields_and_field_types = {
@@ -71,7 +72,8 @@ class MyParameter(metaclass=Metaclass_MyParameter):
         'freq': 'float',
         'offset': 'float',
         'phase': 'float',
-        'time': 'float',
+        'time': 'int32',
+        'signal': 'float',
     }
 
     SLOT_TYPES = (
@@ -80,6 +82,7 @@ class MyParameter(metaclass=Metaclass_MyParameter):
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
 
@@ -92,7 +95,8 @@ class MyParameter(metaclass=Metaclass_MyParameter):
         self.freq = kwargs.get('freq', float())
         self.offset = kwargs.get('offset', float())
         self.phase = kwargs.get('phase', float())
-        self.time = kwargs.get('time', float())
+        self.time = kwargs.get('time', int())
+        self.signal = kwargs.get('signal', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -134,6 +138,8 @@ class MyParameter(metaclass=Metaclass_MyParameter):
         if self.phase != other.phase:
             return False
         if self.time != other.time:
+            return False
+        if self.signal != other.signal:
             return False
         return True
 
@@ -224,8 +230,23 @@ class MyParameter(metaclass=Metaclass_MyParameter):
     def time(self, value):
         if __debug__:
             assert \
-                isinstance(value, float), \
-                "The 'time' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'time' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+                isinstance(value, int), \
+                "The 'time' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'time' field must be an integer in [-2147483648, 2147483647]"
         self._time = value
+
+    @builtins.property
+    def signal(self):
+        """Message field 'signal'."""
+        return self._signal
+
+    @signal.setter
+    def signal(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'signal' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'signal' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._signal = value

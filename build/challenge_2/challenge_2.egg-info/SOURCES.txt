@@ -10,6 +10,7 @@ setup.py
 ../build/challenge_2/challenge_2.egg-info/top_level.txt
 ../build/challenge_2/challenge_2.egg-info/zip-safe
 challenge_2/__init__.py
+challenge_2/reconstructor_node.py
 challenge_2/signal_generator.py
 resource/challenge_2
 test/test_copyright.py

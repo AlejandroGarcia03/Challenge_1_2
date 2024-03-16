@@ -21,16 +21,32 @@ namespace msg
 namespace builder
 {
 
+class Init_MyParameter_signal
+{
+public:
+  explicit Init_MyParameter_signal(::my_msg_interfaces::msg::MyParameter & msg)
+  : msg_(msg)
+  {}
+  ::my_msg_interfaces::msg::MyParameter signal(::my_msg_interfaces::msg::MyParameter::_signal_type arg)
+  {
+    msg_.signal = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::my_msg_interfaces::msg::MyParameter msg_;
+};
+
 class Init_MyParameter_time
 {
 public:
   explicit Init_MyParameter_time(::my_msg_interfaces::msg::MyParameter & msg)
   : msg_(msg)
   {}
-  ::my_msg_interfaces::msg::MyParameter time(::my_msg_interfaces::msg::MyParameter::_time_type arg)
+  Init_MyParameter_signal time(::my_msg_interfaces::msg::MyParameter::_time_type arg)
   {
     msg_.time = std::move(arg);
-    return std::move(msg_);
+    return Init_MyParameter_signal(msg_);
   }
 
 private:

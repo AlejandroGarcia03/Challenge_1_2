@@ -29,7 +29,8 @@ typedef struct my_msg_interfaces__msg__MyParameter
   float freq;
   float offset;
   float phase;
-  float time;
+  int32_t time;
+  float signal;
 } my_msg_interfaces__msg__MyParameter;
 
 // Struct for a sequence of my_msg_interfaces__msg__MyParameter.

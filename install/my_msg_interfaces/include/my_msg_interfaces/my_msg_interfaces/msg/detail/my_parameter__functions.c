@@ -31,6 +31,7 @@ my_msg_interfaces__msg__MyParameter__init(my_msg_interfaces__msg__MyParameter * 
   // offset
   // phase
   // time
+  // signal
   return true;
 }
 
@@ -47,6 +48,7 @@ my_msg_interfaces__msg__MyParameter__fini(my_msg_interfaces__msg__MyParameter * 
   // offset
   // phase
   // time
+  // signal
 }
 
 bool
@@ -81,6 +83,10 @@ my_msg_interfaces__msg__MyParameter__are_equal(const my_msg_interfaces__msg__MyP
   if (lhs->time != rhs->time) {
     return false;
   }
+  // signal
+  if (lhs->signal != rhs->signal) {
+    return false;
+  }
   return true;
 }
 
@@ -108,6 +114,8 @@ my_msg_interfaces__msg__MyParameter__copy(
   output->phase = input->phase;
   // time
   output->time = input->time;
+  // signal
+  output->signal = input->signal;
   return true;
 }
 

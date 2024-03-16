@@ -43,7 +43,8 @@ struct MyParameter_
       this->freq = 0.0f;
       this->offset = 0.0f;
       this->phase = 0.0f;
-      this->time = 0.0f;
+      this->time = 0l;
+      this->signal = 0.0f;
     }
   }
 
@@ -58,7 +59,8 @@ struct MyParameter_
       this->freq = 0.0f;
       this->offset = 0.0f;
       this->phase = 0.0f;
-      this->time = 0.0f;
+      this->time = 0l;
+      this->signal = 0.0f;
     }
   }
 
@@ -79,8 +81,11 @@ struct MyParameter_
     float;
   _phase_type phase;
   using _time_type =
-    float;
+    int32_t;
   _time_type time;
+  using _signal_type =
+    float;
+  _signal_type signal;
 
   // setters for named parameter idiom
   Type & set__type(
@@ -114,9 +119,15 @@ struct MyParameter_
     return *this;
   }
   Type & set__time(
-    const float & _arg)
+    const int32_t & _arg)
   {
     this->time = _arg;
+    return *this;
+  }
+  Type & set__signal(
+    const float & _arg)
+  {
+    this->signal = _arg;
     return *this;
   }
 
@@ -178,6 +189,9 @@ struct MyParameter_
       return false;
     }
     if (this->time != other.time) {
+      return false;
+    }
+    if (this->signal != other.signal) {
       return false;
     }
     return true;

@@ -44,6 +44,8 @@ cdr_serialize(
   cdr << ros_message.phase;
   // Member: time
   cdr << ros_message.time;
+  // Member: signal
+  cdr << ros_message.signal;
   return true;
 }
 
@@ -70,6 +72,9 @@ cdr_deserialize(
 
   // Member: time
   cdr >> ros_message.time;
+
+  // Member: signal
+  cdr >> ros_message.signal;
 
   return true;
 }
@@ -118,6 +123,12 @@ get_serialized_size(
   // Member: time
   {
     size_t item_size = sizeof(ros_message.time);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: signal
+  {
+    size_t item_size = sizeof(ros_message.signal);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -203,6 +214,15 @@ max_serialized_size_MyParameter(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
+  // Member: signal
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -211,7 +231,7 @@ max_serialized_size_MyParameter(
     using DataType = my_msg_interfaces::msg::MyParameter;
     is_plain =
       (
-      offsetof(DataType, time) +
+      offsetof(DataType, signal) +
       last_member_size
       ) == ret_val;
   }

@@ -109,8 +109,17 @@ bool my_msg_interfaces__msg__my_parameter__convert_from_py(PyObject * _pymsg, vo
     if (!field) {
       return false;
     }
+    assert(PyLong_Check(field));
+    ros_message->time = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // signal
+    PyObject * field = PyObject_GetAttrString(_pymsg, "signal");
+    if (!field) {
+      return false;
+    }
     assert(PyFloat_Check(field));
-    ros_message->time = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->signal = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -198,9 +207,20 @@ PyObject * my_msg_interfaces__msg__my_parameter__convert_to_py(void * raw_ros_me
   }
   {  // time
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->time);
+    field = PyLong_FromLong(ros_message->time);
     {
       int rc = PyObject_SetAttrString(_pymessage, "time", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // signal
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->signal);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "signal", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

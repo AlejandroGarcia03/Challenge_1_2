@@ -16,7 +16,9 @@ module my_msg_interfaces {
 
       float phase;
 
-      float time;
+      int32 time;
+
+      float signal;
     };
   };
 };

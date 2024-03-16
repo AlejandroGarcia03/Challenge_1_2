@@ -1,6 +1,7 @@
-string type
+int32 type
 float32 ampl
 float32 freq
 float32 offset
-float32 phase
 int32 time
+float32 signal
+float32 phas

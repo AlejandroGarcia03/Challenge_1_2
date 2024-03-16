@@ -85,6 +85,36 @@ rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/r
 rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: rosidl_adapter/my_msg_interfaces/msg/MyParameter.idl
 rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Char.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Empty.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Float32.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Float64.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Header.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Int16.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Int32.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Int64.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Int8.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/String.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/UInt16.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/UInt32.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/UInt64.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
+rosidl_generator_c/my_msg_interfaces/msg/my_parameter.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros2_frws/src/build/my_msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /root/ros2_frws/src/build/my_msg_interfaces/rosidl_generator_c__arguments.json
 
@@ -123,6 +153,7 @@ my_msg_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libmy_msg_interfaces__rosidl_generator_c.so: CMakeFiles/my_msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_msg_interfaces/msg/detail/my_parameter__functions.c.o
 libmy_msg_interfaces__rosidl_generator_c.so: CMakeFiles/my_msg_interfaces__rosidl_generator_c.dir/build.make
+libmy_msg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libmy_msg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libmy_msg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmy_msg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
